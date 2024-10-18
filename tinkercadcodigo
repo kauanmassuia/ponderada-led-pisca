@@ -1,0 +1,14 @@
+void setup() {
+  // Configura o pino 6 como uma saída
+  pinMode(6, OUTPUT);
+}
+
+void loop() {
+  // Liga o LED
+  digitalWrite(10, HIGH);
+  delay(1000);  // Aguarda 1 segundo
+  
+  // Desliga o LED
+  digitalWrite(10, LOW);
+  delay(1000);  // Aguarda 1 segundo
+}
